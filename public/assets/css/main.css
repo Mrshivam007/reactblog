@@ -578,7 +578,7 @@ section {
 .hero-animated {
   width: 100%;
   min-height: 50vh;
-  /* background: url("../img/hero-bg.png") center center; */
+  background: url("../img/hero-bg.png") center center;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
@@ -711,7 +711,7 @@ section {
   min-height: 60vh;
   padding: 0;
   background: var(--color-black);
-  /* background: url("../img/hero-bg.png") center center; */
+  background: url("../img/hero-bg.png") center center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -950,7 +950,7 @@ section {
 .hero-fullscreen {
   width: 100%;
   min-height: 100vh;
-  /* background: url("../img/hero-fullscreen-bg.jpg") center center; */
+  background: url("../img/hero-fullscreen-bg.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
@@ -1051,7 +1051,7 @@ section {
 .hero-static {
   width: 100%;
   min-height: 50vh;
-  /* background: url("../img/hero-bg.png") center center; */
+  background: url("../img/hero-bg.png") center center;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
@@ -1192,7 +1192,7 @@ section {
   inset: -60px 0 0 -60px;
   z-index: -1;
   content: "";
-  /* background: url("../img/about-bg.png") top left; */
+  background: url("../img/about-bg.png") top left;
   background-repeat: no-repeat;
 }
 
@@ -1384,12 +1384,12 @@ section {
 
 .onfocus .video-play {
   min-height: 400px;
-  /* background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/onfocus-video-bg.jpg") center center; */
+  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/onfocus-video-bg.jpg") center center;
   background-size: cover;
 }
 
 .onfocus .content {
-  /* background: linear-gradient(rgba(var(--color-secondary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.8)), url("../img/onfocus-content-bg.jpg") center center; */
+  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.8)), url("../img/onfocus-content-bg.jpg") center center;
   background-size: cover;
   color: rgba(var(--color-white-rgb), 0.8);
   padding: 40px;
@@ -1729,7 +1729,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  /* background: url("../img/testimonials-bg.jpg") no-repeat; */
+  background: url("../img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1854,7 +1854,7 @@ section {
 }
 
 .pricing .pricing-header {
-  /* background: linear-gradient(rgba(var(--color-secondary-rgb), 0.9), rgba(var(--color-secondary-rgb), 0.9)), url("../img/pricing-bg.jpg") center center; */
+  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.9), rgba(var(--color-secondary-rgb), 0.9)), url("../img/pricing-bg.jpg") center center;
   background-size: cover;
   text-align: center;
   padding: 40px;
@@ -1941,9 +1941,9 @@ section {
   border-color: var(--color-primary);
 }
 
-/* .pricing .featured .pricing-header {
-  /* background: linear-gradient(rgba(var(--color-primary-rgb), 0.9), rgba(var(--color-primary-rgb), 0.9)), url("../img/pricing-bg.jpg") center center; */
-/* } */ */
+.pricing .featured .pricing-header {
+  background: linear-gradient(rgba(var(--color-primary-rgb), 0.9), rgba(var(--color-primary-rgb), 0.9)), url("../img/pricing-bg.jpg") center center;
+}
 
 .pricing .featured .buy-btn {
   background: var(--color-primary);
